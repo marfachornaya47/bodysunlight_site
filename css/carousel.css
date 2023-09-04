@@ -1,0 +1,69 @@
+.review-shadow .card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.card-img {
+    margin-right: 5px;
+    border: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #46959b;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 350px;
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        margin-right: 0;
+        display: block;
+    }
+
+    .carousel-inner {
+        display: flex;
+    }
+
+}
+
+.card-img .img-wrapper {
+    max-width: 100%;
+    height: 320px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img img {
+    max-height: 100%;
+}
+
+@media (max-width: 767px) {
+
+    .card-img .img-wrapper {
+        height: 20em;
+    }
+
+    .carousel{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        background-color: #46959b;
+        width: 6vh;
+        height: 6vh;
+        border-radius: 50%;
+        top: 105%;
+    }
+
+    .inputs {
+       margin-left: 5%;
+       margin-right: 5%;
+    }
+}
